@@ -35,4 +35,7 @@ it('correctly increments the counter', () => {
   expect(wrapper.state()).toEqual({ count: 3 });
   // test the correct value of all the props passed
   expect(wrapper.props().color).toEqual('red');
+  // forcing the state value
+  wrapper.setState({ count: 5 });
+  expect(wrapper.state()).toEqual({ count: 5 });
 });
