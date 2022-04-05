@@ -13,6 +13,9 @@ it('correctly initialize the counter value', () => {
   // retrieve the value of the state
   const instance = wrapper.instance();
   expect(instance.state.count).toBe(1);
+  // test the shouldComponentUpdate without state changing
+  const shouldUpdate = instance.shouldComponentUpdate({}, { count: 1 });
+  expect(shouldUpdate).toBe(false);
 });
 
 it('correctly increments the counter', () => {
