@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the MainPage component renders MainPage without crashing 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <ErrorBoundary>
+      <CardList
+        robots={[Function]}
+      />
+    </ErrorBoundary>
+  </Scroll>
+</div>
+`;
+
+exports[`test the MainPage component renders MainPage without crashing when the isPending value is true 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <h1>
+      Loading
+    </h1>
+  </Scroll>
+</div>
+`;
