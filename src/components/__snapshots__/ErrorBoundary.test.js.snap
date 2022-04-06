@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correctly use the componentDidCatch 1`] = `
+<h1>
+  Something went wrong.
+</h1>
+`;
+
+exports[`expect to render ErrorBoundary component 1`] = `
+<div>
+  ciao
+</div>
+`;
