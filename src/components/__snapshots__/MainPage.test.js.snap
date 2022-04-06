@@ -9,7 +9,7 @@ exports[`test the MainPage component renders MainPage without crashing 1`] = `
   <Scroll>
     <ErrorBoundary>
       <CardList
-        robots={[Function]}
+        robots={Array []}
       />
     </ErrorBoundary>
   </Scroll>
